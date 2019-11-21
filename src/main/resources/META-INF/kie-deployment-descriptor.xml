@@ -12,6 +12,11 @@
             <parameters/>
         </marshalling-strategy>
         <marshalling-strategy>
+            <resolver>reflection</resolver>
+            <identifier>new org.jbpm.document.marshalling.DocumentMarshallingStrategy();</identifier>
+            <parameters/>
+        </marshalling-strategy>
+        <marshalling-strategy>
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.document.marshalling.DocumentMarshallingStrategy();</identifier>
             <parameters/>
