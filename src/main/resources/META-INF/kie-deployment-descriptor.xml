@@ -7,11 +7,6 @@
     <runtime-strategy>PER_CASE</runtime-strategy>
     <marshalling-strategies>
         <marshalling-strategy>
-            <resolver>reflection</resolver>
-            <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy</identifier>
-            <parameters/>
-        </marshalling-strategy>
-        <marshalling-strategy>
             <resolver>mvel</resolver>
             <identifier>org.jbpm.casemgmt.impl.marshalling.CaseMarshallerFactory.builder().withDoc().get();</identifier>
             <parameters/>
@@ -36,8 +31,6 @@
     <environment-entries/>
     <configurations/>
     <required-roles/>
-    <remoteable-classes>
-        <remoteable-class>org.jbpm.document.service.impl.DocumentImpl</remoteable-class>
-    </remoteable-classes>
+    <remoteable-classes/>
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
