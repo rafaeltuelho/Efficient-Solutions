@@ -223,7 +223,7 @@
       <bpmn2:dataInputAssociation id="_-vNzFQykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_E2908697-30ED-44B8-B493-5DF3A9E4E136_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vNzFgykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vNzFwykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cPaymentProcessed") == true)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vNzFwykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cPaymentProcessed") == true)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vNzGAykEeq8yoG7_Dzslw">_E2908697-30ED-44B8-B493-5DF3A9E4E136_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -379,7 +379,7 @@
       <bpmn2:dataInputAssociation id="_-vOaOgykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_7A2B3BCF-5DBF-4A08-9101-74963ACEDD23_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOaOwykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaPAykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cDocumentationIsNeeded") == false)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaPAykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cDocumentationIsNeeded") == false)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOaPQykEeq8yoG7_Dzslw">_7A2B3BCF-5DBF-4A08-9101-74963ACEDD23_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -412,7 +412,7 @@
       <bpmn2:dataInputAssociation id="_-vOaRAykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_CCDCB4E4-2070-4D45-A5DF-EB9DC4B3F801_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOaRQykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaRgykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cDocumentation") != null)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaRgykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cDocumentation") != null)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOaRwykEeq8yoG7_Dzslw">_CCDCB4E4-2070-4D45-A5DF-EB9DC4B3F801_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -442,7 +442,7 @@
       <bpmn2:dataInputAssociation id="_-vOaTgykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_CA0FF6A6-F949-43E0-9B5B-5A8E1B6A1A5B_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOaTwykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaUAykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cDoVerification") == true)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaUAykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cDoVerification") == true)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOaUQykEeq8yoG7_Dzslw">_CA0FF6A6-F949-43E0-9B5B-5A8E1B6A1A5B_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -518,7 +518,7 @@
       <bpmn2:dataInputAssociation id="_-vOaZgykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_2777AA32-1BC7-40CD-BBA1-1740AD059EE2_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOaZwykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaaAykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cTechnicalAnalysisIsComplete") != null, data.get("cAuditPassed") == true)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaaAykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cTechnicalAnalysisIsComplete") != null, data.get("cAuditPassed") == true)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOaaQykEeq8yoG7_Dzslw">_2777AA32-1BC7-40CD-BBA1-1740AD059EE2_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -816,7 +816,7 @@
       <bpmn2:dataInputAssociation id="_-vOatQykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_97EC5B8D-6178-4AE7-8A68-B447A043A644_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOatgykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOatwykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cPaymentApproval") == true)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOatwykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cPaymentApproval") == true)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOauAykEeq8yoG7_Dzslw">_97EC5B8D-6178-4AE7-8A68-B447A043A644_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -871,7 +871,7 @@
       <bpmn2:dataInputAssociation id="_-vOavwykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_2023AFAD-6AC5-4807-B3FD-A9BA23BFBAB0_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOawAykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOawQykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cTechnicalAnalysisIsComplete") == true)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOawQykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cTechnicalAnalysisIsComplete") == true)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOawgykEeq8yoG7_Dzslw">_2023AFAD-6AC5-4807-B3FD-A9BA23BFBAB0_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -924,7 +924,7 @@
       <bpmn2:dataInputAssociation id="_-vOayQykEeq8yoG7_Dzslw">
         <bpmn2:targetRef>_BAC7E10B-A58A-4F7A-B42D-247965C6C556_ConditionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_-vOaygykEeq8yoG7_Dzslw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaywykEeq8yoG7_Dzslw"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cTechnicalApproval") == true)]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_-vOaywykEeq8yoG7_Dzslw"><![CDATA[CaseData(data.get("cTechnicalApproval") == true)]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_-vOazAykEeq8yoG7_Dzslw">_BAC7E10B-A58A-4F7A-B42D-247965C6C556_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
