@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e011450d-c0b6-482e-a4d8-81e8b55764b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/kie-deployment-descriptor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/kie-deployment-descriptor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/energy/efficient_solutions/ProjectGeneration.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/energy/efficient_solutions/ProjectGeneration.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/energy/efficient_solutions/WorkDefinitions.wid" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/energy/efficient_solutions/WorkDefinitions.wid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/energy/efficient_solutions/efficient_solutions.ProjectGeneration-svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/energy/efficient_solutions/efficient_solutions.ProjectGeneration-svg.svg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1TyOwqM3ucHCXhZDKX8TUbArKgW" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e011450d-c0b6-482e-a4d8-81e8b55764b9" name="Default Changelist" comment="" />
+      <created>1574429109918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574429109918</updated>
+    </task>
+    <task id="LOCAL-00001" summary="...">
+      <created>1574429225522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574429225522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
