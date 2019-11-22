@@ -1,0 +1,42 @@
+= Efficient Solutions
+
+
+== Start the case
+
+POST endpoint: http://localhost:8080/kie-server/services/rest/server/containers/Efficient-Solutions_1.0.0-SNAPSHOT/cases/efficient_solutions.ProjectGeneration/instances
+[source,JSON]
+----
+{
+    "case-data": {
+        "cProjectAmount": 25000.00
+    },
+    "case-user-assignments": {},
+    "case-group-assignments": {}
+}
+----
+== Happy path
+* Mandy performs task
+* Albert performs task checking that documentation is needed
+* Submit documentation with
+POST endpoint: http://localhost:8080/kie-server/services/rest/server/containers/Efficient-Solutions_1.0.0-SNAPSHOT/cases/instances/{caseId}}/caseFile/cDocumentation
+[source,JSON]
+----
+{
+    "org.jbpm.document.service.impl.DocumentImpl": {
+        "identifier": "1234",
+        "name": "SupplementalDocumentation.txt",
+        "link": "",
+        "size": 19,
+        "lastModified": {
+            "java.util.Date": 1530791195864
+        },
+        "content": "VGhpcyBpcyBhIHRlc3Qu",
+        "attributes": {
+            "_UPDATED_": "true"
+        }
+    }
+}
+----
+* Alice performs task
+* Tim performs task
+* Peter performs task
